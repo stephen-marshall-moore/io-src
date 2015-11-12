@@ -1,0 +1,34 @@
+<html>
+<head>
+  <script type="text/javascript" src="../../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../bower_components/leaflet-map/leaflet-map.html">
+<head>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    leaflet-map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <leaflet-map fit-to-markers>
+    <leaflet-marker longitude="-0.09" latitude="51.5">
+      <em>Hello World!</em><br/>I am a popup.
+    </leaflet-marker>
+    <leaflet-circle longitude="-0.11" latitude="51.508" radius="500"
+      color="red" fillColor="#f03" fillOpacity="0.5" fill="true">
+      text for popup over circle
+    </leaflet-circle>
+    <leaflet-polygon >
+            <leaflet-point longitude="-0.08" latitude="51.509"></leaflet-point>
+            <leaflet-point longitude="-0.06" latitude="51.503"></leaflet-point>
+            <leaflet-point longitude="-0.047" latitude="51.51"></leaflet-point>
+            will this popup?
+    </leaflet-polygon>
+  </leaflet-map>
+</body>
+</html>
+

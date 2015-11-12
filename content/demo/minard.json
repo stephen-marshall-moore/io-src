@@ -1,0 +1,235 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.886111, 54.897222]
+			},
+			"properties": {
+				"name": "Kowno",
+				"name_en": "Kaunas"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.283333, 54.683333]
+			},
+			"properties": {
+				"name": "Wilna",
+				"name_en": "Vilnius"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.683333, 55.133333]
+			},
+			"properties": {
+				"name": "Gloubokoe",
+				"name_en": "Hlybokaye"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.8, 55.483333]
+			},
+			"properties": {
+				"name": "Polotsk",
+				"name_en": "Polotsk"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [30.166667, 55.183333]
+			},
+			"properties": {
+				"name": "Witebsk",
+				"name_en": "Vitebsk"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.045278, 54.782778]
+			},
+			"properties": {
+				"name": "Smolensk",
+				"name_en": "Smolensk"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.3, 54.916667]
+			},
+			"properties": {
+				"name": "Dorogobouge",
+				"name_en": "Dorogobuzh"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [34.4, 55.5]
+			},
+			"properties": {
+				"name": "Chjat",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.033333, 55.516667]
+			},
+			"properties": {
+				"name": "Mojaisk",
+				"name_en": "Mozhaysk"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [37.616667, 55.75]
+			},
+			"properties": {
+				"name": "Moscou",
+				"name_en": "Moscow"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.940556, 55.122222]
+			},
+			"properties": {
+				"name": "Tarantino",
+				"name_en": "Tarutino"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.5, 55.0]
+			},
+			"properties": {
+				"name": "Malo-jarosewli",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [34.3, 55.2]
+			},
+			"properties": {
+				"name": "Wizma",
+				"name_en": "Vyazma"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [30.4, 54.5]
+			},
+			"properties": {
+				"name": "Orscha",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [30.4, 53.9]
+			},
+			"properties": {
+				"name": "Mohilow",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [29.2, 54.4]
+			},
+			"properties": {
+				"name": "Bobr",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.5, 54.3]
+			},
+			"properties": {
+				"name": "Studienska",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.566667, 53.9]
+			},
+			"properties": {
+				"name": "Minsk",
+				"name_en": ""
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.857222, 54.320833]
+			},
+			"properties": {
+				"name": "Molodezno",
+				"name_en": "Maladzyechna"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.4, 54.483611]
+			},
+			"properties": {
+				"name": "Smorgoni",
+				"name_en": "Smarhon'"
+			}
+		},
+		{
+			"type": "LineString",
+      "movement": "advance",
+			"coordinates": [[23.886111, 54.897222], [25.283333, 54.683333], [27.683333, 55.133333],[28.8, 55.483333], [30.166667, 55.183333], [32.045278, 54.782778], [33.3, 54.916667], [34.4, 55.5], [36.033333, 55.516667], [37.616667, 55.75]]
+		},
+		{
+			"type": "LineString",
+      "movement": "retreat",
+			"coordinates": [[37.616667, 55.75], [36.940556, 55.122222], [36.5, 55.0], [34.3, 55.2], [30.4, 54.5], [30.4, 53.9], [29.2, 54.4], [28.5, 54.3], [27.566667, 53.9], [26.857222, 54.320833], [26.4, 54.483611], [25.283333, 54.683333], [23.886111, 54.897222]]
+		}
+	]
+}

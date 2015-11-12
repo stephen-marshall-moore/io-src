@@ -1,0 +1,34 @@
+<html>
+<head>
+  <script type="text/javascript" src="../../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+  <link rel="import" href="../../bower_components/leaflet-map/leaflet-map.html">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    leaflet-map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<leaflet-map longitude="28" latitude="55" zoom="6">
+
+    <leaflet-tilelayer 
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" max-zoom="19">
+          Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contr., 
+          <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, 
+          Imagery © <a href="http://mapbox.com">Mapbox</a>
+    </leaflet-tilelayer>
+
+    <template is="dom-bind">
+      <iron-ajax url="/demo/minard.json" last-response="{{"{{data}}"}}" auto>
+      </iron-ajax>
+      <leaflet-geojson data="[[data]]"></leaflet-geojson>
+    </template>
+
+</leaflet-map>
+</body>
+</html>
